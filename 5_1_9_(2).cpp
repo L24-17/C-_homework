@@ -19,7 +19,7 @@ public:
 	double getSide() {
 		return side; //Оператор return завершує виконання функції та повертає керування основній функції.
 	}
-	void setSide(double newValueSide) {
+	void setSide(double newValueSide) { ////void - це найпростіший тип даних, який означає відсутність будь-якого типу даних.
 		if (newValueSide>0) {
 			side = newValueSide;
 			area = newValueSide * newValueSide;
