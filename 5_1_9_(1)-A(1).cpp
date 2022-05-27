@@ -15,7 +15,7 @@ string FirstLastName(Person* person) {
 	return person->name + " " + person->lastName;
 }
 
-void print(Person* person) {
+void print(Person* person) { //void - це найпростіший тип даних, який означає відсутність будь-якого типу даних.
 
 	cout << FirstLastName(person) << " is " << person->age << " years old." << endl;
 }
