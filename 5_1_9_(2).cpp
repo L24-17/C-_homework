@@ -39,7 +39,7 @@ public:
 
 int main()
 {
-	Square s(4);
+	Square s(4); //так як Square має специфікатор доступу public
 	s.print();
 	s.setSide(5);
 	s.print();
