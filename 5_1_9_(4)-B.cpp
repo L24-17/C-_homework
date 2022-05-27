@@ -10,7 +10,7 @@ private:
 	double price;
 	int itemNumber;
 public:
-	void set_name(string name); //Вказуємо ім'я товару
+	void set_name(string name); //Вказуємо ім'я товару, void - це найпростіший тип даних, який означає відсутність будь-якого типу даних.
 	void set_price(double price); //Ціна товару
 	void set_itemNumber(int itemNumb); //Кількість
 	string get_name();
